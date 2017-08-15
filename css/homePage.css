@@ -1,0 +1,363 @@
+* {
+        margin: 0;
+        padding: 0;
+        
+    }
+    html,body,form{
+        height: 100%;
+        width: 100%;
+        margin:0;
+        padding: 0;
+        
+    }
+    /*头部*/
+    .head{
+        height: 100px;
+        width: 100%;
+        background: #272727;
+        color: white;
+    }
+    .head a{
+        box-sizing: border-box;
+        color: white;
+        font-size: 12px;
+        border: 1px solid #272727;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        position: relative;
+        top: -5px;
+        left: 7%;
+        margin-left: 25px;
+    }
+    .head a:hover{
+        color: red;
+    }
+    .left{
+        float: left;
+        width: 70%;
+        height: 100px;
+    }
+    .left a:hover{
+        color: red;
+        background: black;
+    }
+    .left img{
+        position: relative;
+        top: 20px;
+        left: 6%;
+    }
+    .right{
+        float: right;
+        width: 30%;
+        height: 100px;
+    }
+    .right span{
+        border: 1px solid white;
+        box-sizing: border-box;
+        position: relative;
+        top: 24px;
+        left: 25%;
+        font-size: 12px;
+        padding-left: 20px;
+        padding-right: 20px;
+        cursor:pointer;
+        margin-left: 12px;
+    }
+    .right span:hover{
+        color: red;
+        border: 1px solid red;
+    }
+    .right img{
+        position: relative;
+        top: 35px;
+        left: 30%;
+    }
+    /*第一屏*/
+    .firstscreen{
+        height: 90%;
+        width: 100%;
+    }
+    .firstscreen img{
+        height: 100%;
+        width: 100%;
+    }
+    h1,h2,h5{
+        text-align: center;
+        position: relative;
+        top: -80%;
+        color:white;
+        }
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 22px;
+        height: 15%;
+    }
+    h5{
+        width: 60%;
+        position: relative;
+        left: 20%;
+    }
+    /*第二屏*/
+    .secondscreen{
+        height: 90%;
+        width: 100%;
+    }
+
+    .secondscreen-top{
+        height: 45%;
+        width: 100%;
+    }
+    .secondscreen-top-left{
+        float: left;
+        height: 80%;
+        width: 15%;
+        
+    }
+    .secondscreen-top-left img{
+        height: 100%;
+        width: 100%;
+        position: relative;
+        top: 20%;
+    }
+    .secondscreen-top-in{
+        float: left;
+        height: 100%;
+        width: 70%;
+        text-align: center;
+    }
+    h3{
+        font-size: 25px;
+        position: relative;
+        top: 20%;
+    }
+    h4{
+        font-size: 8px;
+        width: 60%;
+        position:relative;
+        left: 20%;
+        top: 30%;
+    }
+    .secondscreen-top-in span{
+        border: 1px solid;
+        box-sizing: border-box;
+        letter-spacing: 10px;
+        background: black;
+        color: white;
+        position: relative;
+        top: 80px;
+    }
+    
+    .secondscreen-top-right{
+        float: left;
+        height: 80%;
+        width: 15%;
+    }
+    .secondscreen-top-right img{
+        height: 100%;
+        width: 100%;
+        position: relative;
+        top: 20%;
+    }
+
+    .secondscreen-bottom{
+        height: 55%;
+        width: 100%;
+    }
+    
+    .secondscreen-bottom>div{
+        float: left;
+    }
+    .secondscreen-bottom-one{
+        width: 15%;
+        height: 100%;
+    }
+    .secondscreen-bottom-one img{
+        height: 100%;
+    }
+    
+    .secondscreen-bottom-two{
+        height: 100%;
+        width: 23%;
+    }
+    .secondscreen-bottom-two img{
+        height: 90%;
+        position: relative;
+        top: 10%;
+    }
+    .secondscreen-bottom-three{
+        height: 100%;
+        width: 24%;
+    }
+    .secondscreen-bottom-three img{
+        height: 80%;
+        position: relative;
+        top: 20%;
+    }
+    .secondscreen-bottom-four{
+        height: 100%;
+        width: 23%;
+    }
+    .secondscreen-bottom-four img{
+        height: 90%;
+        position: relative;
+        top: 10%;
+    }
+    .secondscreen-bottom-five{
+        height: 100%;
+        width: 15%;
+    }
+    .secondscreen-bottom-five img{
+        height: 100%;
+    }
+    .secondscreen-bottom img{
+        width: 100%;
+    }
+    /*第3屏*/
+    .thirdscreen{
+        height: 80%;
+        width: 100%;
+        background: #e94043;
+    }
+    .thirdscreen-main{
+        height: 90%;
+        width: 60%;
+        position: relative;
+        left: 20%;
+        
+    }
+    .thirdscreen-main-top{
+        text-align: center;
+    }
+    .thirdscreen-main-top h4{
+        font-size: 20px;
+        position: relative;
+        top: 30px;
+    }
+    .thirdscreen-main-top{
+        height: 30%;
+        width: 100%;
+    }
+    .thirdscreen-main-bottom{
+        height: 70%;
+        width: 100%;
+    }
+    .thirdscreen-main-bottom-left{
+        height: 100%;
+        width: 49%;
+        float: left;
+        background: wheat;
+    }
+    .thirdscreen-main-bottom-left img{
+        height: 100%;
+        width: 100%;
+    }
+    .thirdscreen-main-bottom-right{
+        height: 100%;
+        width: 49%;
+        float: right;
+        background: wheat;
+    }
+    .thirdscreen-main-bottom-right img{
+        height: 100%;
+        width: 100%;
+    }
+    /*第4屏*/
+    .fifthscreen{
+        height: 80%;
+        width: 100%;
+        background: red;
+    }
+    .fifthscreen-main{
+        height: 100%;
+        width: 70%;
+        position: relative;
+        left: 15%;
+    }
+    .fifthscreen-top{
+        height: 30%;
+        width: 100%;
+        
+        background:violet;
+    }
+    .fifthscreen-bottom{
+        height: 70%;
+        width: 100%;
+       
+        background: aqua;
+    }
+    .fifthscreen-bottom-left{
+        height: 100%;
+        width: 60%;
+        background: wheat;
+    }
+    .fifthscreen-bottom-right{
+        height: 100%;
+        width: 40%;
+        background: magenta;
+    }
+    .fifthcreen-bottom-left{
+        height: 100%;
+        width: 60%;
+        background: wheat;
+        float: left;
+    }
+
+    .fifthcreen-bommoom-right{
+        height: 100%;
+        width: 40%;
+        background: tan;
+        float: left;
+    }
+
+
+
+
+    /*底部*/
+    .footer{
+        height: 100px;
+        width: 100%;
+        background: #272727;
+    }
+    .one{
+        height: 85px;
+        width: 60%;
+        position: relative;
+        left: 20%;
+        top: 10px;
+        border: 1px solid #272727;
+        border-top-color: white;
+        box-sizing: border-box;
+    }
+    .two{
+        float: left;
+        width: 85%;
+        height: 89px;
+    }
+    .two a{
+        position: relative;
+        bottom: 30px;
+        color: white;
+        font-size: 12px;
+        line-height: 30px;
+    }
+    .two img{
+        position: relative;
+        top: 14px;
+    }
+    .three{
+        float: left;
+        width: 15%;
+        height: 89px;
+    }
+    .three a{
+        position: relative;
+        top: 12px;
+        font-size: 12px;
+        color: white;
+    }
+    .three img{
+        position: relative;
+        top: 15px;
+    }
