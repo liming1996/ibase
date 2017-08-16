@@ -1,0 +1,256 @@
+* {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        
+    }
+    html,body,form{
+        height: 100%;
+        width: 100%;
+        margin:0;
+        padding: 0;
+        min-width: 1055px;
+        
+    }
+    /*头部*/
+    .head{
+        height: 100px;
+        width: 100%;
+        background: #272727;
+    }
+    .head a{
+        color: white;
+       font-size: 14px;
+       border: 1px solid #272727;
+       padding-top: 35px;
+       padding-bottom: 35px;
+       position: relative;
+       top: -5px;
+       margin-left: 1%;
+       margin-right: 1%;
+       left: 4%;
+    }
+    .head a:hover{
+        color: red;
+        background-color: black;
+    }
+    
+    .left img{
+        position: relative;
+        top:20px;
+        left: 3%;
+    }
+    .left span{
+        float: right;
+        position: relative;
+        left: -7%;
+        top: 40px;
+        color: white;
+        border: 1px solid white;
+        padding-left: 2%;
+        padding-right: 2%;
+        font-size: 14px;
+        margin-right: 2%;
+    }
+    .head span:hover{
+        color: red;
+        border:1px solid red;
+        cursor: pointer;    
+    }
+    /*第一屏*/
+    .a-main{
+        height: 85%;
+        width: 100%;
+        color: white;
+       
+    }
+    .a-main img{
+        width: 100%;
+        height: 100%;
+    }
+    .a-top{
+        height: 80%;
+        width: 50%;
+        position: relative;
+        left: 25%;
+        top: -100%;
+        text-align: center;
+       
+    }
+    h1{
+        font-size: 65px;
+        margin-top: 90px;
+    }
+    h2{
+        font-size: 12px;
+        margin-top: 15px;
+    }
+    .a-top span{
+        border: 1px solid;
+        font-size: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        position: relative;
+        top: 100px;
+    }
+    /*第二屏*/
+    .b-main{
+        height: 90%;
+        width: 100%;
+
+    }
+    .b-content{
+        height: 90%;
+        width: 70%;
+        position: relative;
+        left: 15%;
+        top: 5%;
+        text-align: center;
+    }
+    .b-content-top{
+        height: 30%;
+        width: 100%;
+    }
+    h3{
+        font-size: 24px;
+
+    }
+    h4{
+        font-size: 16px;
+    }
+    .b-content-bottom{
+        height: 70%;
+        width: 100%;
+    }
+    .b-content-bottom-left{
+        height: 90%;
+        width: 33%;
+        background: #666666;
+        float: left;
+        position: relative;
+        left: 10%;
+    }
+    .b-content-bottom-right{
+        height: 90%;
+        width: 33%;
+        background: #666666;
+        float: left;
+        position: relative;
+        left: 23%;
+    }
+    /*第三屏*/
+
+    .c-main{
+        height: 90%;
+        width: 100%;
+
+    }
+    .c-content{
+        height: 90%;
+        width: 70%;
+        position: relative;
+        left: 15%;
+        top: 5%;
+        text-align: center;
+    }
+    .c-content-top{
+        height: 30%;
+        width: 100%;
+    }
+    h3{
+        font-size: 24px;
+
+    }
+    h4{
+        font-size: 16px;
+    }
+    .c-content-bottom{
+        height: 70%;
+        width: 100%;
+    }
+    .c-content-bottom-left{
+        height: 90%;
+        width: 26%;
+        background: #666666;
+        float: left;
+        position: relative;
+        left: 1%;
+    }
+    .c-content-bottom-left img{
+        margin-top: 60px;
+        margin-bottom: 32px;
+    }
+    .c-content-bottom-in{
+        height: 90%;
+        width: 26%;
+        background: #666666;
+        float: left;
+        position: relative;
+        left: 10.5%;
+    }
+    .c-content-bottom-in img{
+        margin-top: 60px;
+        margin-bottom: 32px;
+    }
+    .c-content-bottom-right{
+        height: 90%;
+        width: 26%;
+        background: #666666;
+        float: left;
+        position: relative;
+        left: 20%;
+    }
+    .c-content-bottom-right img{
+        margin-top: 60px;
+        margin-bottom: 32px;
+    }
+          
+/*底部*/
+    .footer{
+        height: 100px;
+        width: 100%;
+        background: #272727;
+    }
+    .one{
+        height: 85px;
+        width: 60%;
+        position: relative;
+        left: 20%;
+        top: 10px;
+        border: 1px solid #272727;
+        border-top-color: white;
+        box-sizing: border-box;
+    }
+    .two{
+        float: left;
+        width: 85%;
+        height: 89px;
+    }
+    .two a{
+        position: relative;
+        bottom: 30px;
+        color: white;
+        font-size: 12px;
+        line-height: 30px;
+    }
+    .two img{
+        position: relative;
+        top: 14px;
+    }
+    .three{
+        float: left;
+        width: 15%;
+        height: 89px;
+    }
+    .three a{
+        position: relative;
+        top: 12px;
+        font-size: 12px;
+        color: white;
+    }
+    .three img{
+        position: relative;
+        top: 15px;
+    }
+
+   
