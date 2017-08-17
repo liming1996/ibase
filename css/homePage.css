@@ -1,6 +1,7 @@
 * {
         margin: 0;
         padding: 0;
+        text-decoration: none;
         
     }
     html,body,form{
@@ -8,6 +9,7 @@
         width: 100%;
         margin:0;
         padding: 0;
+        min-width:1055px;
         
     }
     /*头部*/
@@ -15,62 +17,45 @@
         height: 100px;
         width: 100%;
         background: #272727;
-        color: white;
     }
     .head a{
-        box-sizing: border-box;
         color: white;
-        font-size: 12px;
-        border: 1px solid #272727;
-        padding-top: 40px;
-        padding-bottom: 40px;
-        position: relative;
-        top: -5px;
-        left: 7%;
-        margin-left: 25px;
+       font-size: 14px;
+       border: 1px solid #272727;
+       padding-top: 35px;
+       padding-bottom: 35px;
+       position: relative;
+       top: -5px;
+       margin-left: 1%;
+       margin-right: 1%;
+       left: 4%;
     }
     .head a:hover{
         color: red;
+        background-color: black;
     }
-    .left{
-        float: left;
-        width: 70%;
-        height: 100px;
-    }
-    .left a:hover{
-        color: red;
-        background: black;
-    }
+    
     .left img{
         position: relative;
-        top: 20px;
-        left: 6%;
+        top:20px;
+        left: 3%;
     }
-    .right{
+    .left span{
         float: right;
-        width: 30%;
-        height: 100px;
-    }
-    .right span{
+        position: relative;
+        left: -7%;
+        top: 40px;
+        color: white;
         border: 1px solid white;
-        box-sizing: border-box;
-        position: relative;
-        top: 24px;
-        left: 25%;
-        font-size: 12px;
-        padding-left: 20px;
-        padding-right: 20px;
-        cursor:pointer;
-        margin-left: 12px;
+        padding-left: 2%;
+        padding-right: 2%;
+        font-size: 14px;
+        margin-right: 2%;
     }
-    .right span:hover{
+    .head span:hover{
         color: red;
-        border: 1px solid red;
-    }
-    .right img{
-        position: relative;
-        top: 35px;
-        left: 30%;
+        border:1px solid red;
+        cursor: pointer;    
     }
     /*第一屏*/
     .firstscreen{
@@ -84,7 +69,7 @@
     h1,h2,h5{
         text-align: center;
         position: relative;
-        top: -80%;
+        top: -70%;
         color:white;
         }
     h1{
@@ -216,9 +201,12 @@
     }
     /*第3屏*/
     .thirdscreen{
-        height: 80%;
+        height: 70%;
         width: 100%;
         background: #e94043;
+    }
+    .thirdscreen h4{
+        color: white;
     }
     .thirdscreen-main{
         height: 90%;
@@ -243,6 +231,18 @@
         height: 70%;
         width: 100%;
     }
+    .thirdscreen-main-bottom span{
+        position: relative;
+        bottom: 180px;
+        color: white;
+        left: 35px;
+    }
+    .thirdscreen-main-bottom a{
+        position: relative;
+        bottom: 145px;
+        font-size: 12px;
+        color: white;
+    }
     .thirdscreen-main-bottom-left{
         height: 100%;
         width: 49%;
@@ -263,29 +263,58 @@
         height: 100%;
         width: 100%;
     }
+    
     /*第4屏*/
     .fifthscreen{
-        height: 80%;
+        height: 70%;
         width: 100%;
         background: red;
+        overflow: hidden;
+    }
+    .fifthscreen h3{
+            font-size: 25px;
+    position: relative;
+    top: 20%;
+    text-align: center;
+    color: white;
+    }
+
+    .fifthscreen h4{
+        color: white;
+        text-align: center;
+    }
+    .fifthscreen img{
+        width: 100%;
+        height: 100%;
     }
     .fifthscreen-main{
         height: 100%;
         width: 70%;
         position: relative;
         left: 15%;
+        bottom: 101%;
     }
     .fifthscreen-top{
         height: 30%;
         width: 100%;
-        
-        background:violet;
     }
     .fifthscreen-bottom{
         height: 70%;
         width: 100%;
-       
-        background: aqua;
+    }
+    .fifthscreen-bottom h3{
+        font-size: 40px;
+       width: 55%;
+    }
+    .fifthscreen-bottom span{
+        position: relative;
+    /* right: 66px; */
+       top: 70px;
+       left: 20%;
+       color: white;
+    }
+    .fifthscreen-bottom h4{
+        text-align: left;
     }
     .fifthscreen-bottom-left{
         height: 100%;
@@ -307,9 +336,225 @@
     .fifthcreen-bommoom-right{
         height: 100%;
         width: 40%;
-        background: tan;
         float: left;
     }
+
+    /*第五屏*/
+    .a-main{
+        height: 170%;
+        width: 100%;
+    }
+    .a-content{
+        height: 95%;
+        width: 70%;
+        position: relative;
+        left: 15%;
+        border: 2px solid white;
+        box-sizing: border-box;
+        border-bottom-color: black;
+    }
+    .a-content-one{
+        height: 32%;
+        width: 100%;
+    }
+    .a-content-one-left{
+        width: 40%;  
+        height: 100%;
+        float: left;
+    }
+    .a-content-one-left h3{
+        font-size: 40px;
+        position: relative;
+        top: 20%;
+        left: 20%;
+    }
+
+    .a-content-one-left span{
+        position: relative;
+        left: 20%;
+        top: 85px;
+    }
+    .a-content-one-right{
+        width: 60%;
+        height: 100%;
+        float: left;
+    }
+    .a-content-one-right img{
+        height: 100%;
+        width: 100%;
+    }
+    .a-content-two{
+        height: 32%;
+        width: 100%;
+    }
+
+    .a-content-two-left{
+        width: 60%;
+        height: 100%;
+        float: left;
+    }
+    .a-content-two-left img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .a-content-two-right{
+        width: 40%;
+        height: 100%;
+        float: left;
+    }
+    .a-content-two-right h3{
+        font-size: 40px;
+        position: relative;
+        top: 20%;
+        left: 20%;
+    }
+
+    .a-content-two-right span{
+        position: relative;
+        left: 20%;
+        top: 85px;
+    }
+    
+    .a-content-three{
+        height: 32%;
+        width: 100%;
+
+    }
+    .a-content-three-left{
+        width: 40%;
+        height: 100%;
+        float: left;
+    }
+    .a-content-three-right img{
+        height: 100%;
+        width: 100%;
+    }
+    .a-content-three-left h3{
+        font-size: 40px;
+        position: relative;
+        top: 20%;
+        left: 20%;
+    }
+
+    .a-content-three-left span{
+        position: relative;
+        left: 20%;
+        top: 85px;
+    }
+    .a-content-three-right{
+        width: 60%;
+        height: 100%;
+        float: left;
+    }
+    .a-content-four span{
+        position: relative;
+        left: 41%;
+        top: 29px;
+        border: 1px solid red;
+        padding: 5px;
+        padding-left: 6%;
+        padding-right: 6%;
+        background: red;
+        color: white;
+    }
+
+
+    /*第六屏*/
+    .b-main{
+        height: 60%;
+        width: 100%;
+        background: #666;
+
+    }
+    .b-content{
+        height: 100%;
+        width: 70%;
+        position: relative;
+        left: 15%;
+        text-align: center;
+
+    }
+    .b-content-top{
+        height: 20%;
+        width: 100%;
+    }
+    .b-content-top span{
+        position: relative;
+        top: 35%;
+        color: white;
+        font-size: 20px;
+    }
+    .b-content-in{
+        height: 34%;
+        width: 100%;
+        
+
+    }
+    .b-content-in-one{
+        height: 100%;
+        width: 22%;
+       
+        float: left;
+    }
+    .b-content-in-two{
+        height: 100%;
+        width: 22%;
+        float: left;
+        margin-left: 4%;
+    }
+     .b-content-in-three{
+        height: 100%;
+        width: 22%;
+        
+        float: left;
+        margin-left: 4%;
+    }
+     .b-content-in-four{
+        height: 100%;
+        width: 22%;
+        float: left;
+        margin-left: 4%;
+    }
+    .b-content-bottom{
+        height: 34%;
+        width: 100%;
+      
+        margin-top: 2%;
+    }
+    .b-content-bottom-five{
+        height: 100%;
+        width: 22%;
+      
+        float: left;
+    }
+    .b-content-bottom-six{
+        height: 100%;
+        width: 22%;
+        float: left;
+        margin-left: 4%;
+    }
+     .b-content-bottom-seven{
+        height: 100%;
+        width: 22%;
+      
+        float: left;
+        margin-left: 4%;
+    }
+     .b-content-bottom-eight{
+        height: 100%;
+        width: 22%;
+        float: left;
+        margin-left: 4%;
+    }
+    .b-content img{
+        height: 100%;
+        width: 100%;
+    }
+
+
+   
+    
 
 
 
@@ -319,6 +564,7 @@
         height: 100px;
         width: 100%;
         background: #272727;
+        overflow: hidden;
     }
     .one{
         height: 85px;
@@ -348,8 +594,10 @@
     }
     .three{
         float: left;
-        width: 15%;
-        height: 89px;
+        width: 13%;
+        height: 100%;
+        position: relative;
+        left: 3%;
     }
     .three a{
         position: relative;

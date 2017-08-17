@@ -122,10 +122,14 @@
         height: 70%;
         width: 100%;
     }
+    .b-content-bottom img{
+        height: 100%;
+        width: 100%;
+    }
     .b-content-bottom-left{
-        height: 90%;
-        width: 33%;
-        background: #666666;
+        height: 95%;
+        width: 35%;
+    
         float: left;
         position: relative;
         left: 10%;
@@ -133,10 +137,39 @@
     .b-content-bottom-right{
         height: 90%;
         width: 33%;
-        background: #666666;
         float: left;
         position: relative;
         left: 23%;
+    }
+    ul{
+        height: 40%;
+        width: 80%;
+        text-align: left;
+        position: relative;
+        left: 15%;
+        top: 10px;
+    }
+    .b-content-bottom img{
+        height: 35%;
+        width: 85%
+    }
+
+    .b-content-bottom a{
+        position: relative;
+  
+        left: -78px;
+    }
+    .b-content-bottom span{
+        height: 24px;
+        width: 50%;
+        float: left;
+        position: relative;
+        left: 25%;
+        top: 35px;
+        border: 1px solid red;
+        box-sizing: border-box;
+        background: red;
+        color: wheat;
     }
     /*第三屏*/
 
@@ -168,40 +201,39 @@
         height: 70%;
         width: 100%;
     }
+    
     .c-content-bottom-left{
         height: 90%;
         width: 26%;
-        background: #666666;
         float: left;
         position: relative;
         left: 1%;
     }
     .c-content-bottom-left img{
-        margin-top: 60px;
+        margin-top: 50px;
         margin-bottom: 32px;
     }
     .c-content-bottom-in{
         height: 90%;
         width: 26%;
-        background: #666666;
         float: left;
         position: relative;
         left: 10.5%;
     }
     .c-content-bottom-in img{
-        margin-top: 60px;
+        margin-top: 50px;
         margin-bottom: 32px;
     }
     .c-content-bottom-right{
         height: 90%;
         width: 26%;
-        background: #666666;
+       
         float: left;
         position: relative;
         left: 20%;
     }
     .c-content-bottom-right img{
-        margin-top: 60px;
+        margin-top: 50px;
         margin-bottom: 32px;
     }
           
@@ -210,6 +242,7 @@
         height: 100px;
         width: 100%;
         background: #272727;
+        overflow: hidden;
     }
     .one{
         height: 85px;
@@ -239,8 +272,10 @@
     }
     .three{
         float: left;
-        width: 15%;
-        height: 89px;
+        width: 13%;
+        height: 100%;
+        position: relative;
+        left: 3%;
     }
     .three a{
         position: relative;

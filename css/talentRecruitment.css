@@ -2,7 +2,6 @@
         margin: 0;
         padding: 0;
         text-decoration: none;
-
         
     }
     html,body,form{
@@ -11,7 +10,6 @@
         margin:0;
         padding: 0;
         min-width: 1055px;
-        
         
     }
     /*头部*/
@@ -32,7 +30,6 @@
        margin-right: 1%;
        left: 4%;
     }
-
     .head a:hover{
         color: red;
         background-color: black;
@@ -60,11 +57,12 @@
         border:1px solid red;
         cursor: pointer;    
     }
-     /*第一屏*/
+    /*第一屏*/
     .a-main{
-        height: 85%;
+        height: 80%;
         width: 100%;
-        background: black;
+        color: white;
+       
     }
     .a-main img{
         width: 100%;
@@ -75,9 +73,9 @@
         width: 50%;
         position: relative;
         left: 25%;
-        top: -85%;
+        top: -100%;
         text-align: center;
-        color: white
+       
     }
     h1{
         font-size: 65px;
@@ -98,139 +96,128 @@
 
     /*第二屏*/
     .b-main{
+        height: 75%;
         width: 100%;
-        height:170%;
 
     }
-    .b-main img{
+    .c-main{
+        height: 75%;
         width: 100%;
-        height: 100%;
+        background: rgb(233,64,67);
     }
+    .d-main{
+        height: 75%;
+        width: 100%;
+    }
+    
     .b-content{
-        width: 60%;
         height: 80%;
-        position: relative;
-        left: 20%;
-        top: 5%;
-    }
-    .b-one{
-        height: 24%;
-        width: 100%;
-        
-
-    }
-    .b-one-left{
-        width:49.5%;
-        height: 100%;
-        float: left;
-        background: olive;
-    }
-    .b-one-right{
-        width: 49.5%;
-        height: 100%;
-        float: left;
-        margin-left: 1%;
-        background: olive;
-    }
-    .b-two{
-        height: 24%;
-        width: 100%;
-        position: relative;
-        top: 1%;
-       
-
-    }
-    .b-two-left{
-        height: 100%;
-        width: 49.5%;
-        float: left;
-        background: olive;
-
-    }
-    .b-two-right{
-        height: 100%;
-        width: 49.5%;
-        float: left;
-        margin-left: 1%;
-        background: olive;
-    }
-
-    .b-three{
-        height: 24%;
-        width: 100%;
-        position: relative;
-        top: 2%;
-        
-    }
-    .b-three-left{
-        height: 100%;
-        width: 49.5%;
-        float: left;
-        background: olive;
-    }
-    .b-three-right{
-        height: 100%;
-        width: 49%;
-        float: left;
-        margin-left: 1%;
-        background: olive;
-    }
-    .b-four{
-        height: 24%;
-        width: 100%;
-        position: relative;
-        top: 3%;
-        
-    }
-    .b-four-left{
-        height: 100%;
-        width: 49.5%;
-        float: left;
-    }
-    .b-four-right{
-        height: 100%;
-        width: 49.5%;
-        float: left;
-        margin-left: 1%;
-        background: olive;
-    }
-    h4{
-        color: white;
+        width: 80%;
         position: relative;
         top: 10%;
-        left: 5%;
-        width: 90%;
+        left: 10%;
+        
     }
-    h5{
-        font-size: 12px;
+    .c-content{
+        height: 80%;
+        width: 80%;
         position: relative;
-        top: 13%;
-        left: 5%;
-        width: 90%;
+        top: 10%;
+        left: 10%;
+       
+    }
+    .c-content h3{
         color: white;
     }
 
+    .b-content img{
+        width: 100%;
+        height: 100%;
 
-    .b-bottom{
-        float: right;
+    }
+    .c-content img{
+        width: 100%;
+        height: 100%;
+
+    }
+    .d-content img{
+        width: 100%;
+        height: 100%;
+
+    }
+    h3{
+         font-size: 12px;
+         color: #666;
+    }
+    .b-content-left{
+        height: 80%;
+        width: 40%;
         position: relative;
-        top: 100px;
-        right: 8%;
-        width: 33%;
-    }
-    .b-bottom a{
-        color: #666666;
-        font-size: 16px;
-        margin-left: 6%;   
-    }
-    .b-bottom a:hover{
-        color: red;
-        cursor:pointer;
+        top: 10%;
+        float: left;
+        background: white;
 
     }
+    .b-content-right{
+        height: 80%;
+        width: 55%;
+        position: relative;
+        top: 10%;
+        float: left;
+        margin-left: 5%;
+    }
+    .c-content-left{
+        height: 80%;
+        width: 55%;
+        position: relative;
+        top: 10%;
+        float: left;
+        margin-right: 5%;
+    }
+    .c-content-right{
+        height: 80%;
+        width: 40%;
+        position: relative;
+        top: 10%;
+        float: left;
+        background: white;
+    }
+    .d-main{
+        height: 75%;
+        width: 100;
+
+    }
+    .d-content{
+        height: 80%;
+        width: 80%;
+        position: relative;
+        top: 10%;
+        left: 10%;
+    }
+    .d-content-left{
+        height: 80%;
+        width: 40%;
+        position: relative;
+        top: 10%;
+        float: left;
+        background: white;
+
+    }
+    .d-content-right{
+        height: 80%;
+        width: 55%;
+        position: relative;
+        top: 10%;
+        float: left;
+        margin-left: 5%;
+    }
 
 
 
+
+
+
+              
 /*底部*/
     .footer{
         height: 100px;
@@ -281,3 +268,5 @@
         position: relative;
         top: 15px;
     }
+
+   

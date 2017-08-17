@@ -112,6 +112,7 @@
         height: 100px;
         width: 100%;
         background: #272727;
+        overflow: hidden;
     }
     .one{
         height: 85px;
@@ -141,8 +142,10 @@
     }
     .three{
         float: left;
-        width: 15%;
-        height: 89px;
+        width: 13%;
+        height: 100%;
+        position: relative;
+        left: 3%;
     }
     .three a{
         position: relative;
