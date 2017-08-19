@@ -3,9 +3,10 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>注册</title>
+    <title>登录</title>
     <link rel="stylesheet" href="../css/public.css">
-    <link rel="stylesheet" href="../css/register.css">
+    <link rel="stylesheet" href="../css/logo.css">
+
 </head>
 
 <body>
@@ -29,14 +30,16 @@
     <div class="main">
         <img src="../img/登录/bg.png" alt="">
         <div class="content">
-            <img src="../img/网站首页/ibase.png" alt=""><br/>
+            <img src="../img/网站首页/logo.png" alt=""><br/>
+            
             <input type="text" id="username" name="username" autocomplete="off" class="input-middle" placeholder="邮箱/手机号"><br>
+            <img style="    width: 17px;height: 30px;position: absolute;top: 176px;" src="../img/登录/手机.png" alt="">
             <input type="password" id="pwd" name="pwd" autocomplete="off" class="input-middle" placeholder="密码"><br>
-           <input type="text" id="verify" autocomplete="off" maxlength="6" name="verify" class="input-middle" placeholder="输入验证码" style="width: 66px;height:10px;vertical-align:super;">
-           <span style="    border: 1px solid #424849;padding-top: 6px;padding-bottom: 6px;background: #424849;color: white;position: relative;top: -4px;left:29%;">获取验证码</span> 
-           <br/><br/>
-            <button>注册</button>
-            <br/><span>已有账号,<a href="../html/login.html">去登陆</a></span>
+            <img style="    width: 17px;height: 30px;position: absolute;top: 222px;" src="../img/登录/密码.png" alt="">
+            <input type="checkbox" style="height:15px;width:15px;"><span style="position:relative;top:-3px;">自动登录<a href="">忘记密码</a></span>
+            <br/><br/>
+            <button>登录</button>
+            <br/><span>还没有账号，现在去注册。<a href="../html/register.html">注册</a></span>
         </div>
     </div>
     <!--底部-->
