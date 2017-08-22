@@ -15,7 +15,7 @@
         color:white;
         }
     h1{
-        font-size: 40px;
+        font-size: 50px;
     }
     h2{
         font-size: 22px;
@@ -69,13 +69,14 @@
     .secondscreen-top-in span{
         border: 1px solid;
         box-sizing: border-box;
-        letter-spacing: 10px;
         background: black;
         color: white;
         position: relative;
-        top: 80px;
-    }
-    
+        top: 120px;
+        padding: 3px 10px;
+        font-size: 20px;
+        cursor: pointer;
+    } 
     .secondscreen-top-right{
         float: left;
         height: 80%;
@@ -195,6 +196,23 @@
         height: 100%;
         width: 100%;
     }
+    .thirdscreen-main-bottom-left span{
+        height: 100%;
+        width: 100%;
+        position: relative;
+        bottom: 285px;
+        left: -1px;
+        opacity: 0;
+
+    }
+    .thirdscreen-main-bottom-left span:hover{
+        height: 100%;
+        width: 100%;
+        position: relative;
+        bottom: 285px;
+        left: -1px;
+        opacity: 0.9;
+    }
     .thirdscreen-main-bottom-right{
         height: 100%;
         width: 49%;
@@ -204,6 +222,22 @@
     .thirdscreen-main-bottom-right img{
         height: 100%;
         width: 100%;
+    }
+    .thirdscreen-main-bottom-right span{
+        height: 100%;
+        width: 100%;
+        position: relative;
+        bottom: 285px;
+        left: -1px;
+        opacity: 0;
+    }
+    .thirdscreen-main-bottom-right span:hover{
+        height: 100%;
+        width: 100%;
+        position: relative;
+        bottom: 285px;
+        left: -1px;
+        opacity: 0.9;
     }
     
     /*第4屏*/
@@ -296,8 +330,9 @@
         border-bottom-color: black;
     }
     .a-content-one{
-        height: 32%;
+        height: 30%;
         width: 100%;
+        margin-top: 2%;
     }
     .a-content-one-left{
         width: 40%;  
@@ -326,8 +361,9 @@
         width: 100%;
     }
     .a-content-two{
-        height: 32%;
+        height: 30%;
         width: 100%;
+        margin-top: 2%;
     }
 
     .a-content-two-left{
@@ -359,9 +395,9 @@
     }
     
     .a-content-three{
-        height: 32%;
+        height: 30%;
         width: 100%;
-
+        margin-top: 2%;
     }
     .a-content-three-left{
         width: 40%;
@@ -389,16 +425,20 @@
         height: 100%;
         float: left;
     }
+    .a-content-four a{
+        color: white;
+    }
     .a-content-four span{
         position: relative;
         left: 41%;
-        top: 29px;
+        top: 45px;
         border: 1px solid red;
         padding: 5px;
         padding-left: 6%;
         padding-right: 6%;
         background: red;
         color: white;
+        cursor: pointer;
     }
 
 
@@ -415,7 +455,6 @@
         position: relative;
         left: 15%;
         text-align: center;
-
     }
     .b-content-top{
         height: 20%;
@@ -430,13 +469,10 @@
     .b-content-in{
         height: 34%;
         width: 100%;
-        
-
     }
     .b-content-in-one{
         height: 100%;
         width: 22%;
-       
         float: left;
     }
     .b-content-in-two{
@@ -492,6 +528,137 @@
     .b-content img{
         height: 100%;
         width: 100%;
+    }
+    /*第七屏*/
+    .g-main{
+        height: 90%;
+        width: 100%;
+        background: rgb(233,64,67);
+        overflow: hidden;
+    }
+    .g-content{
+        height: 100%;
+        margin: 0 15%;
+    }
+    .g-content-left{
+        height: 15%;
+        width: 100%;
+        text-align: center;
+    }
+    .g-content-left span{
+        font-size: 20px;
+        color: white;
+        position: relative;
+        top: 36%;
+    }
+    .g-content-right{
+        height: 75%;
+        width: 100%;
+    }
+    .g-content-right img{
+        width: 85%;
+        height: 100%;
+    }
+    .g-float{
+        height: 30%;
+        width: 30%;
+        position: absolute;
+        right:20%;
+        bottom: 20%;
+    }
+
+    .g-float{
+        height: 50%;
+        width: 25%;
+        float:right;
+        position: relative;
+        bottom: 77%;
+        right: 15%;
+    }
+    .g-float-left{
+        height: 100%;
+        width: 85%;
+        text-align: center;
+        background: white;
+        float: left;
+    }
+    .g-float-left-top{
+        height: 20%;
+        margin: 0 8%;
+        font-size: 18px;
+    }
+    .g-float-left-top a{
+        position: relative;
+        top: 35%;
+    }
+
+    .g-float-left-in{
+        margin: 0 8%;
+        font-size: 14px;
+        text-align: left;
+        color: rgb(93,93,93);
+    }
+    .g-float-left a{
+        color: #272625;
+    }
+    .g-float-left button{
+        font-size: 16px;
+        padding: 1% 20%;
+        background: #272625;
+        border: 1px solid white;
+        box-sizing: border-box;
+    }
+    .g-float-left button a{
+        color: white;
+    }
+    .g-float-left button:hover{
+        background-color: rgb(233,64,67);
+        cursor: pointer;
+    }
+    .g-float-right{
+        float: left;
+        height: 71%;
+        width: 13%;
+        margin: 15% 0 15% 2%;
+    }
+
+    .g-float-right-top{
+        height: 49%;
+        color: white;
+    }
+    .g-float-right-top span{
+        position: relative;
+        top: 39%;
+        left: 6%;
+        border: 1px solid #e94043;
+        padding: 100% 25%;
+        box-sizing: border-box;
+        background: #272625;
+    }
+
+    .g-float-right-top span:hover{
+        background-color:white;
+        color:#272625;
+        cursor: pointer;
+    }
+   
+    .g-float-right-bottom{
+        height: 49%;
+        color: white;
+    }
+    .g-float-right-bottom span{
+        position: relative;
+        top: 39%;
+        left: 6%;
+        border: 1px solid #e94043;
+        padding: 100% 25%;
+        box-sizing: border-box;
+        background: #272625;
+    }
+    .g-float-right-bottom span:hover{
+        background-color: white;
+        color: #272625;
+        cursor: pointer;
     }
 
 

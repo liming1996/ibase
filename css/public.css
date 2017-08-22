@@ -10,24 +10,30 @@
         margin:0;
         padding: 0;
         min-width: 1055px;
-        font-family: serif;
-        
-        
+        font-family: microsoft yahei;
+        min-height: 638px;
+   
     }
     /*头部*/
     .head{
         height: 100px;
         width: 100%;
         background: #272727;
+        min-width: 1055px;
     }
-    .head a{
+    .head img{
+        position: absolute;
+        top: 20px;
+        left: 4%;
+    }
+    .left a{
         color: white;
         font-size: 14px;
         border: 1px solid #272727;
         position: relative;
-        top: -5px;
-        left: 4%;
-        padding: 42px 10px;
+        top: 38px;
+        left: 15%;
+        padding: 40px 10px;
         margin: 8px 8px;
     }
     .head a:hover{
@@ -36,17 +42,21 @@
     }
     .left{
         height: 100px;
+        width: 70%;
+        float: left;
     }
-    .left img{
-        position: relative;
-        top:20px;
-        left: 3%;
+    
+    .right{
+        height: 100px;
+        width:30%;
+        float: left;    
     }
-    .left span{
+
+    .right span{
         float: right;
         position: relative;
-        left: -7%;
-        top: 37px;
+        left: -15%;
+        top: 35px;
         color: white;
         border: 1px solid white;
         padding: 5px 22px;
@@ -62,8 +72,7 @@
     .a-main{
         height: 85%;
         width: 100%;
-        color: white;
-       
+        
     }
     .a-main img{
         width: 100%;
@@ -71,28 +80,29 @@
     }
     .a-top{
         height: 80%;
-        width: 80%;
+        width: 50%;
         position: relative;
-        left: 10%;
-        top: -100%;
+        left: 25%;
+        top: -85%;
         text-align: center;
-       
+        color: white
     }
     h1{
-        font-size: 140px;
+        font-size: 65px;
         margin-top: 90px;
     }
     h2{
-        font-size: 20px;
+        font-size: 12px;
         margin-top: 15px;
     }
     .a-top span{
-        border: 1px solid;
-        font-size: 38px;
-        padding-left: 10px;
-        padding-right: 10px;
+        box-sizing: border-box;
+        border: 1px solid white;
+        font-size: 20px;
+        padding:10px 30px;
         position: relative;
-        top: 70px;
+        top: 100px;
+        color: white;
     }
 
 
@@ -102,6 +112,10 @@
         width: 100%;
         background: #272727;
         overflow: hidden;
+    }
+    .footer a:hover{
+        color: red;
+        cursor: pointer;
     }
     .one{
         height: 85px;
@@ -124,6 +138,8 @@
         color: white;
         font-size: 12px;
         line-height: 30px;
+        margin: 0 10px;
+
     }
     .two img{
         position: relative;

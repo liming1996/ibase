@@ -30,23 +30,23 @@
     }
     h1{
         font-size: 31px;
-        margin-bottom: 55px;
-        margin-top:55px;
+        margin: 55px 0;
+        color: white;
     }
     h1:hover{
         color: red;
         cursor: pointer;
     }
     .content span{
-        margin-left: 10%;
-        margin-right: 10%;
+        margin: 0 20px;
         position: relative;
         top:-14px;
 
     }
-    .content span{
- 
+    .content span:hover{
+        color: red;
         cursor: pointer;
+        
     }
 
 

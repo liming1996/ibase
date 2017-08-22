@@ -1,0 +1,356 @@
+
+     /*第一屏*/
+    .a-main{
+        height: 85%;
+        width: 100%;
+        color: white;
+       
+    }
+    .a-main img{
+        width: 100%;
+        height: 100%;
+    }
+    .a-top{
+        height: 80%;
+        width: 50%;
+        position: relative;
+        left: 25%;
+        top: -100%;
+        text-align: center;
+       
+    }
+    h1{
+        font-size: 65px;
+        margin-top: 90px;
+    }
+    h2{
+        font-size: 12px;
+        margin-top: 15px;
+    }
+    .a-top span{
+        border: 1px solid;
+        font-size: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        position: relative;
+        top: 100px;
+    }
+    /*第二屏*/
+    .b-main{
+        height: 60%;
+        width: 100%;
+
+    }
+    .b-content{
+        height: 90%;
+        width: 70%;
+        position: relative;
+
+        left: 15%;
+    }
+    .b-content-top{
+        height: 40%;
+        width: 100%;
+        text-align: center;
+
+    }
+    h3{
+        height: 50%;
+        width: 100%;
+        position: relative;
+        top: 16%;
+        font-size: 20px;
+
+    }
+    .b-content-top p{
+        font-size: 14px;
+    }
+    .b-content-bottom{
+        height: 60%;
+        width: 100%;
+    }
+    .bg-img-one{
+       height: 75%;
+       width: 29%;
+       float: left;
+       margin: 5% 2%;
+    }
+    .bg-img-two{
+        height: 75%;
+        width: 29%;
+        float: left;
+        margin:5% 2%;  
+    }
+    .bg-img-three{
+        height: 75%;
+        width: 29%;
+        float: left;
+        margin: 5% 2%;
+
+    }
+    .b-content-bottom img{
+        width: 100%;
+        height: 100%;
+    }
+    /*第三屏*/
+    .c-main{
+        height: 80%;
+        width: 100%;
+        background: rgb(233,64,67);
+    }
+    .c-content{
+        height: 100%;
+        width: 70%;
+        position: relative;
+        left: 15%;
+    }
+    .c-content-top{
+        height: 15%;
+        width: 100%;
+        text-align: center;
+    }
+    .c-content-top h3{
+        color: white;
+        height: 100%;
+        position: relative;
+        top: 50%;
+        
+    }
+    .c-content-bottom{
+        height: 75%;
+        width: 100%;
+        position: relative;
+        top:5%;
+    }
+    .c-content-bottom-left{
+        width: 45%;
+        height: 100%;
+        float: left;
+        background: white;
+
+    }
+    .c-content-bottom-right{
+        width: 45%;
+        height: 100%;
+        position: relative;
+        left: 10%;
+        float: left;
+        background: white;
+    }
+    .c-content-bottom img{
+        width: 100%;
+        height: 65%;
+    }
+    .c-content-bottom-left span.left{
+        height: 6%;
+        width: 50%;
+        margin-left: 11%;
+        position: relative;
+        top: 5%;
+        font-size: 18px;
+    }
+    .c-content-bottom-left span.in{
+        position: relative;
+        left: -20%;
+        top: 6%;
+        font-size: 18px;
+    }
+    .c-content-bottom-left span.right{
+        height: 4%;
+        width: 18%;
+        position: relative;
+        left: 14%;
+        top: 7%;
+        font-size: 10px;
+    }
+    .c-content-bottom-left button{
+        position: relative;
+        top: 12%;
+        left: 11%;
+        height: 8%;
+        width: 75%;
+        color: white;
+        background: rgb(233,64,67);
+        border: white;
+    }
+    .c-content-bottom-right span.left{
+        height: 6%;
+        width: 50%;
+        margin-left: 11%;
+        position: relative;
+        top: 5%;
+        font-size: 18px;
+    }
+    .c-content-bottom-right span.in{
+        position: relative;
+        left: -20%;
+        top: 6%;
+        font-size: 18px;
+    }
+    .c-content-bottom-right span.right{
+        height: 4%;
+        width: 18%;
+        position: relative;
+        left: 14%;
+        top: 7%;
+        font-size: 10px;
+    }
+    .c-content-bottom-right button{
+        position: relative;
+        top: 12%;
+        left: 11%;
+        height: 8%;
+        width: 75%;
+        color: white;
+        background: rgb(233,64,67);
+        border: white;
+    }
+    /*第四屏*/
+    .d-main{
+        height: 60%;
+        width: 100%;
+    }
+    .d-content{
+        height: 100%;
+        width: 70%;
+        position: relative;
+        left: 15%;
+    }
+    .d-content-top{
+        height: 30%;
+    }
+    .d-content-in{
+        height: 25%;
+        border-bottom: 1px solid #666;
+    }
+    .d-content-bottom{
+        height: 25%;
+        position: relative;
+        margin: 0 20%;
+        margin-top: 7%;
+    }
+    .d-content-top h3{
+        text-align: center;
+        position: relative;
+        top: 40%;
+    }
+    .d-img-one{
+        height: 55%;
+        width: 20%;
+        float: left;
+        margin:0 2.5%; 
+    }
+    .d-content-in span{
+        position: relative;
+        bottom: 20%;
+        left: 5%;
+    }
+    .d-img-two{
+        height: 55%;
+        width: 20%;
+        float: left;
+        margin:0 2.5%; 
+       
+    }
+    .d-img-three{
+        height: 55%;
+        width: 20%;
+        float: left;
+        margin:1% 2.5% 0 2.5%;    
+    }
+    .d-img-four{
+        height: 55%;
+        width: 20%;
+        float: left;
+        margin:-1% 2.5% 0 2.5%; 
+    }
+    .d-img-four span{
+        position: relative;
+        bottom: 52%;
+    }
+    .d-content-bottom span{
+        position: relative;
+        bottom: 20%;
+    }
+    .d-img-five{
+        height: 70%;
+        width: 37%;
+        float: left;
+
+    }
+    .d-img-six{
+        height: 70%;
+        width: 37%;
+        float: left;
+    }
+    .d-img-seven{
+        height: 70%;
+        width: 26%;
+        float: left;
+    }
+    /*第五屏*/
+
+    .e-main{
+        height: 75%;
+        width: 100%;
+        background: #272727;
+        color: white;
+    }
+    
+    .e-content{
+        height: 90%;
+        width: 70%;
+        position: relative;
+        left: 15%;
+        top: 5%;
+        text-align: center;
+    }
+    .e-content-top{
+        height: 30%;
+        width: 100%;
+    }
+    h3{
+        font-size: 24px;
+
+    }
+    h4{
+        font-size: 16px;
+    }
+    .e-content-bottom{
+        height: 70%;
+        width: 100%;
+    }
+    
+    .e-content-bottom-left{
+        height: 90%;
+        width: 26%;
+        float: left;
+        position: relative;
+        left: 1%;
+    }
+    .e-content-bottom-left img{
+        margin-top: 50px;
+        margin-bottom: 32px;
+    }
+    .e-content-bottom-in{
+        height: 90%;
+        width: 26%;
+        float: left;
+        position: relative;
+        left: 10.5%;
+    }
+    .e-content-bottom-in img{
+        margin-top: 50px;
+        margin-bottom: 32px;
+    }
+    .e-content-bottom-right{
+        height: 90%;
+        width: 26%;   
+        float: left;
+        position: relative;
+        left: 20%;
+    }
+    .e-content-bottom-right img{
+        margin-top: 50px;
+        margin-bottom: 32px;
+    }

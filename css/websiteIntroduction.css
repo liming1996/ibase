@@ -96,6 +96,12 @@
         position: relative;
         top: 1%;
     }
+    .b-content a{
+        color: white;
+    }
+    .b-content a:hover{
+        color: red;
+    }
     .b-two span{
         border: 1px solid red;
         box-sizing: border-box;

@@ -27,12 +27,13 @@
         margin-top: 15px;
     }
     .a-top span{
-        border: 1px solid;
+        box-sizing: border-box;
+        border: 1px solid white;
         font-size: 20px;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding:10px 30px;
         position: relative;
         top: 100px;
+        color: white;
     }
 
 
@@ -109,11 +110,13 @@
     }
     .b-content-three button{
         position: absolute;
-        left: 90%;
+        left: 106%;
         padding: 4px;
+        bottom: 0px;
       
         border: 1px solid white;
         box-sizing: border-box;
+        width: 100px;
     }
     .b-content-three button:hover{
         background: red;
